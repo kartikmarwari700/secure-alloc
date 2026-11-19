@@ -1,0 +1,24 @@
+# build output
+server
+client
+bench
+wire_demo
+test_deadlock
+test_crypto
+test_protocol
+*.o
+*.exe
+
+# generated: RSA keys (private keys must never be committed), logs, captures, test output
+keys/
+logs/
+captures/
+tests/out/
+tests/last_run.txt
+ns2/out_*.tr
+ns2/out_*.nam
+ns2/*.xg
+ns2/results.dat
+
+# stray logs
+/*.log
